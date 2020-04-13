@@ -1,0 +1,5 @@
+import numpy as np
+stations = ["CAIRO", "MINYA", "ASYUT", "SOHAG", "QENA", "LUXOR", "ASWAN", "ABU SMBEL", "ISMAILIA" , "SUEZ", "EL-TOR" , "HURGHADA" ,"KOSSEIR", "RAS BINAS"]
+Pav = [1.90, 0.31, 0.27, 0.22, 0.25, 0.35, 0.22, 0.08, 2.51, 1.17, 0.64, 0.39, 0.51, 0.97]
+myDict = {k: v for k, v in zip(stations, Pav)} #https://www.tutorialgateway.org/python-program-to-map-two-lists-into-a-dictionary/
+print("Rainfall for the 14 Stations  :  ",  myDict)
